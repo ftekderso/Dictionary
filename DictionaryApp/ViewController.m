@@ -67,7 +67,7 @@
    
     CustomeTableViewCell * cell = (CustomeTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-     [_hud hide:YES];
+      [_hud hide:YES];
         NSDictionary  * dict = [_responseArray objectAtIndex:indexPath.row];
     
         cell.wordLbl.text = [dict valueForKey:@"Word"];
